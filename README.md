@@ -45,7 +45,7 @@ By utilizing these scripts, users can explore and understand their text data thr
 ⚡ **Dimensionality Reduction and Clustering**: Implementations of `PCA`, `SVD`, `MDS`, `t-SNE`, `k-Means`, `DBSCAN`, `HC` on choice to reduce data complexity and enable effective visualization of high-dimensional datasets.
 
 ⚡ **Visualization Capabilities**: Advanced plotting functions for visualizing the outcomes of dimensionality reduction, providing clear and actionable insights.
-  * It is important to know that this is not very emphasized but used to explain with better visuals.
+  * *It is important to know that the primary goal of the project was executing computations so are emphasized while the visualizations serve as a medium.*
 
 ⚡ **Customizable Configuration**: Modular design allowing for easy adjustment of settings and paths to accommodate diverse datasets and analysis requirements.
 
