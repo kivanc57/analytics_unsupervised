@@ -89,7 +89,8 @@ By utilizing these scripts, users can explore and understand their text data thr
   📜 ***nlp_config.py***: Handles NLP-specific configurations.
 
 
-* **src/**: Contains source code for the project.
+* **src/**: Contains source code for the project.  
+
   💎 ***__init__.py***: Initializes the source package and imports functions from individual modules, setting up the namespace for the package.
 
   💎 ***preprocessing.py***: Handles text preprocessing tasks such as cleaning and preparing raw text data for further analysis.
