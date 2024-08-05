@@ -24,15 +24,16 @@ def configure_logging(script_name):
     )
 
 #Joins the given path and given file name
-def get_join_path(folder_name, is_sample=False):
+def get_join_path(folder_name, file_name=None, is_sample=False):
     try:
         project_path = dirname(dirname(abspath(__file__)))
         if is_sample:
-            folder_path = join('data', folder_name, 'sample')
+            folder_path = join('data', folder_name, 'sample', file_name) if file_name else join('data', folder_name, 'sample')
         else:
-            folder_path = join('data', folder_name)
+             folder_path = join('data', folder_name, file_name) if file_name else join('data', folder_name)
         full_path = join(project_path, folder_path)
         return full_path
     
     except Exception as e:
         print(f"Error: {e} joining {folder_name}")
+        return None
