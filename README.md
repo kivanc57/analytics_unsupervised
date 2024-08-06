@@ -147,19 +147,19 @@ def plot_dimensionality_reduction(df, n, technique, destination):
 
 ```
 
-### Reduction Graph `1D` <a name="graph_1"></a>
+### Reduction Graph: `1D` <a name="graph_1"></a>
 
 ![Graph 1D](/screenshots/reduction_graph_1D.png?raw=true)
 
 ---
 
-### Reduction Graph `2D` <a name="graph_2"></a>
+### Reduction Graph: `2D` <a name="graph_2"></a>
 
 ![Graph 2D](/screenshots/reduction_graph_2D.png?raw=true)
 
 ---
 
-### Reduction Graph `3D` <a name="graph_3"></a>
+### Reduction Graph: `3D` <a name="graph_3"></a>
 
 ![Graph 3D](/screenshots/reduction_graph_3D.png?raw=true)
 
