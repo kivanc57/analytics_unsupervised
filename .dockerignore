@@ -1,0 +1,17 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+docker-compose.yml
+
+venv/
+myenv/
+
+logs/
+data/
+presentation/
+screenshots/
+
+.git
+.gitignore
+
